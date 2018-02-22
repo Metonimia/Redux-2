@@ -1,3 +1,5 @@
+import uuid from uuid;
+
 const ADD_COMMENT = 'ADD_COMMENT';
 const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
 const THUMB_DOWN_COMMENT = 'THUMB_DOWN_COMMENT';
@@ -24,9 +26,9 @@ function thumbDownComment(commentId) {
     }
 }
 
-export ADD_COMMENT;
-export THUMB_UP_COMMENT;
-export THUMB_DOWN_COMMENT;
+export {ADD_COMMENT};
+export {THUMB_UP_COMMENT};
+export {THUMB_DOWN_COMMENT};
 export addComment;
 export thumbUpComment;
 export thumbDownComment;
