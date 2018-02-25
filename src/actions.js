@@ -1,4 +1,4 @@
-import uuid from uuid;
+import uuid from "uuid";
 
 const ADD_COMMENT = 'ADD_COMMENT';
 const THUMB_UP_COMMENT = 'THUMB_UP_COMMENT';
@@ -29,6 +29,6 @@ function thumbDownComment(commentId) {
 export {ADD_COMMENT};
 export {THUMB_UP_COMMENT};
 export {THUMB_DOWN_COMMENT};
-export addComment;
-export thumbUpComment;
-export thumbDownComment;
+export {addComment};
+export {thumbUpComment};
+export {thumbDownComment};

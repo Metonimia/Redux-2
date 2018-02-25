@@ -16,7 +16,5 @@ ReactDOM.render(
 	</Provider>,
 	document.getElementById("root")
 );
-registerServiceWorker();
 
 store.dispatch(addComment("pierwszy komentarz"));
-store.dispatch(addComment("drugi komentarz"));
