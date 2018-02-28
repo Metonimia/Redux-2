@@ -7,3 +7,5 @@ const CommentList = ({ comments }) => (
 		{comments.map(comment => <Comment key={comment.id} {...comment} />)}
 	</ul>
 );
+
+export default CommentList;
